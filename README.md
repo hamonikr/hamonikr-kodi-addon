@@ -12,9 +12,9 @@
 아래 지원 목록에 있는 항목의 환경이 $HOME/.kodi에 복사가 됩니다.
 
 ## hamonikr-kodi-addon 명령어
-hamonikr-kodi-addon copy : 에드온을 $HOME/.kodi 에 복사
-hamonikr-kodi-addon backup : $HOME/.kodi 환경을 /usr/share/hamonikr-kodi-addon/backup 경로에 백업
-hamonikr-kodi-addon restore : 백업한 내용을 복구
+- hamonikr-kodi-addon copy : 에드온을 $HOME/.kodi 에 복사
+- hamonikr-kodi-addon backup : $HOME/.kodi 환경을 /usr/share/hamonikr-kodi-addon/backup 경로에 백업
+- hamonikr-kodi-addon restore : 백업한 내용을 복구
 
 ## addon 지원 목록
 
