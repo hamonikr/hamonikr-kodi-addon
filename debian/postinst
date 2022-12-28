@@ -23,8 +23,8 @@ case "$1" in
             # 기존에 사용하던 kodi 환경 백업
             hamonikr-kodi-addon backup
 
-            sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" cp -rf /usr/share/hamonikr-kodi-addon/addons /home/${RUID}/.kodi/addons
-            sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" cp -rf /usr/share/hamonikr-kodi-addon/userdata /home/${RUID}/.kodi/userdata
+            sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" cp -rf /usr/share/hamonikr-kodi-addon/addons /home/${RUID}/.kodi/
+            sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" cp -rf /usr/share/hamonikr-kodi-addon/userdata /home/${RUID}/.kodi/
         fi
 
     ;;

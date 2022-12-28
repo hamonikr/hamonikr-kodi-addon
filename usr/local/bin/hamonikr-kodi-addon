@@ -15,8 +15,8 @@ case "$1" in
                 chown ${RUID}:${RUID} /home/${RUID}/.kodi
             fi
 
-            cp -rf /usr/share/hamonikr-kodi-addon/addons /home/${RUID}/.kodi/addons
-            cp -rf /usr/share/hamonikr-kodi-addon/userdata /home/${RUID}/.kodi/userdata
+            cp -rf /usr/share/hamonikr-kodi-addon/addons /home/${RUID}/.kodi/
+            cp -rf /usr/share/hamonikr-kodi-addon/userdata /home/${RUID}/.kodi/
         else
             echo "check RUID '$RUID'"
         fi
@@ -25,8 +25,8 @@ case "$1" in
         if [ ! -z "$RUID" ]; then
             sudo rm -r /usr/share/hamonikr-kodi-addon/backup/*
 
-            sudo cp -rf /home/${RUID}/.kodi/addons /usr/share/hamonikr-kodi-addon/backup/addons
-            sudo cp -rf /home/${RUID}/.kodi/userdata /usr/share/hamonikr-kodi-addon/backup/userdata
+            sudo cp -rf /home/${RUID}/.kodi/addons /usr/share/hamonikr-kodi-addon/backup/
+            sudo cp -rf /home/${RUID}/.kodi/userdata /usr/share/hamonikr-kodi-addon/backup/
         else
             echo "check RUID '$RUID'"
         fi
@@ -35,8 +35,8 @@ case "$1" in
         if [ ! -z "$RUID" ]; then
             rm -r /home/${RUID}/.kodi/*
 
-            cp -rf /usr/share/hamonikr-kodi-addon/backup/addons /home/${RUID}/.kodi/addons
-            cp -rf /usr/share/hamonikr-kodi-addon/backup/userdata /home/${RUID}/.kodi/userdata
+            cp -rf /usr/share/hamonikr-kodi-addon/backup/addons /home/${RUID}/.kodi/
+            cp -rf /usr/share/hamonikr-kodi-addon/backup/userdata /home/${RUID}/.kodi/
         else
             echo "check RUID '$RUID'"
         fi

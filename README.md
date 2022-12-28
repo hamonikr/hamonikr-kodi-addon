@@ -21,4 +21,4 @@
 - 테마 변경 : eminence
 - 기본 언어 : 한국어
 - 키보드 자판 : 영어, 한국어
-- 날씨 : Multi Weather
+- 날씨 : Multi Weather (지역 : Seoul)
