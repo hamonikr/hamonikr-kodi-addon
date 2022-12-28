@@ -1,0 +1,3 @@
+<favourites>
+    <favourite name="YouTube" thumb="/home/bae/.kodi/addons/plugin.video.youtube/icon.png">ActivateWindow(10025,&quot;plugin://plugin.video.youtube/&quot;,return)</favourite>
+</favourites>

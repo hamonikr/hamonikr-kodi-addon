@@ -1,8 +1,8 @@
 <settings>
     <setting id="indicator.new" type="bool">false</setting>
     <setting id="home.hidewidgetbox" type="bool">false</setting>
-    <setting id="TMDbHelper.Service" type="bool">true</setting>
     <setting id="background.showvisualisation" type="bool">false</setting>
+    <setting id="TMDbHelper.Service" type="bool">true</setting>
     <setting id="background.animate" type="bool">false</setting>
     <setting id="skinviewtypes.view.disabled.59" type="bool">false</setting>
     <setting id="widgets.donthidemenu" type="bool">false</setting>
@@ -52,9 +52,23 @@
     <setting id="horizontalmenus" type="bool">false</setting>
     <setting id="tmdbhelper.enablecrop" type="bool">false</setting>
     <setting id="switchsides" type="bool">false</setting>
-    <setting id="skin.forcedview.playlists" type="string"></setting>
-    <setting id="background.fallback" type="string"></setting>
+    <setting id="skinviewtypes.view.disabled.510" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.51" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.57" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.577" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.53" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.553" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.54" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.55" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.56" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.52" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.525" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.58" type="bool">false</setting>
+    <setting id="skinviewtypes.view.disabled.535" type="bool">false</setting>
+    <setting id="horizontallistnav" type="bool">false</setting>
     <setting id="highlightcolor" type="string"></setting>
+    <setting id="background.fallback" type="string"></setting>
+    <setting id="skin.forcedview.playlists" type="string"></setting>
     <setting id="fanart.opacity" type="string"></setting>
     <setting id="skin.forcedview.games" type="string"></setting>
     <setting id="skin.forcedview." type="string"></setting>

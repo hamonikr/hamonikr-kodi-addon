@@ -472,7 +472,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>3</systemtotaluptime>
+        <systemtotaluptime>10</systemtotaluptime>
     </general>
     <resolutions />
     <defaultvideosettings>
