@@ -1,0 +1,12 @@
+Source: hamonikr-kodi-addon
+Section: admin
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: hamonikr-kodi-addon
+Architecture: all
+Depends: kodi
+Description: Kodi addon provided by HamoniKR
+ 하모니카에서 제공하는 코디 에드온

@@ -1,0 +1,31 @@
+<settings version="2">
+    <setting id="loc1">Seoul, Seoul, KR</setting>
+    <setting id="loc2" default="true" />
+    <setting id="loc3" default="true" />
+    <setting id="loc4" default="true" />
+    <setting id="loc5" default="true" />
+    <setting id="loc1id">1132599</setting>
+    <setting id="loc2id" default="true">-1</setting>
+    <setting id="loc3id" default="true">-1</setting>
+    <setting id="loc4id" default="true">-1</setting>
+    <setting id="loc5id" default="true">-1</setting>
+    <setting id="loc1lat">37.5571</setting>
+    <setting id="loc2lat" default="true">0</setting>
+    <setting id="loc3lat" default="true">0</setting>
+    <setting id="loc4lat" default="true">0</setting>
+    <setting id="loc5lat" default="true">0</setting>
+    <setting id="loc1lon">126.977</setting>
+    <setting id="loc2lon" default="true">0</setting>
+    <setting id="loc3lon" default="true">0</setting>
+    <setting id="loc4lon" default="true">0</setting>
+    <setting id="loc5lon" default="true">0</setting>
+    <setting id="ycookie">d=AQABBO6iq2MCEPeZGPS6Ipc2TRi4ZviH7lgFEgEBAQH0rGO1YwAAAAAA_eMAAA&amp;S=AQAAAkM878NtoMQ-Uv0fI80PpDE</setting>
+    <setting id="ycrumb">XIT2W4rthU/</setting>
+    <setting id="ystamp">1672192752</setting>
+    <setting id="WAdd" default="true">false</setting>
+    <setting id="API" default="true" />
+    <setting id="WMaps" default="true">false</setting>
+    <setting id="MAPAPI" default="true" />
+    <setting id="Zoom" default="true">4</setting>
+    <setting id="Debug" default="true">false</setting>
+</settings>

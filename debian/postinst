@@ -1,0 +1,40 @@
+#!/bin/bash
+
+case "$1" in
+    configure|upgrade|update|reconfigure)
+
+        # Get the Real Username and ID
+        RUID=$(who | awk 'FNR == 1 {print $1}')
+        RUSER_UID=$(id -u ${RUID})
+        
+        # kodi version check
+        KODI_VERSION=$(kodi --version | head -1 | awk '{print $1}')
+
+        if [ ! -z "$RUID" ]; then
+            if [ ! -d "/home/${RUID}/.kodi" ]; then
+                mkdir /home/${RUID}/.kodi
+                chown ${RUID}:${RUID} /home/${RUID}/.kodi
+            fi
+            
+            # 기존에 사용하던 kodi 환경 백업
+            if [ ! -d "/usr/share/hamonikr-kodi-addon/backup" ]; then
+                mkdir /usr/share/hamonikr-kodi-addon/backup
+            fi
+            # 기존에 사용하던 kodi 환경 백업
+            hamonikr-kodi-addon backup
+
+            sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" cp -rf /usr/share/hamonikr-kodi-addon/addons /home/${RUID}/.kodi/addons
+            sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" cp -rf /usr/share/hamonikr-kodi-addon/userdata /home/${RUID}/.kodi/userdata
+        fi
+
+    ;;
+    triggered)
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
